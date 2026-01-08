@@ -5,6 +5,7 @@ plugins {
     id "com.diffplug.spotless" version "6.12.0"
 }
 
+project.compileJava.dependsOn(createVersionFile)
 gversion {
     srcDir       = "src/main/java/"
     classPackage = "frc.robot"
