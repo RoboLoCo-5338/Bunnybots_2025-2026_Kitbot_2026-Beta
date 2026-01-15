@@ -22,6 +22,6 @@ public final class ShooterConstants {
 
   public static final class ShooterSimConstants {
     public static final MomentOfInertia SHOOTER_MOI =
-        Pounds.mult(InchesPerSecond).mult(Inches).mult(RadiansPerSecond).of(1.517);
+        Pounds.mult(InchesPerSecond).mult(Inches).per(RadiansPerSecond).of(1.517);
   }
 }
